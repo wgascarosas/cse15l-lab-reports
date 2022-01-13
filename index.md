@@ -3,7 +3,7 @@
 
 *lit gang*
 
-`this is some code`
+`this is some code..`
 
 [link](https://twitter.com/?lang=en)
 
