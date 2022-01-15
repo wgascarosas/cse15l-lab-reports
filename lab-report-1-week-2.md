@@ -102,7 +102,7 @@ Now log in to your remote ieng6 server account using
 
 with `zz` replaced by your account specific letters.
 Once logged in run command `mkdir .ssh` then log out.
-Now on your computer terminal run the command
+Now on your computer terminal run the command....
 
 `scp /Users/user/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
