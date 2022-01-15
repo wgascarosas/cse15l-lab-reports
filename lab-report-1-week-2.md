@@ -52,7 +52,7 @@ When `ls -a` is typed as a command this lists all the files in the directory in 
 
 ![image](commands.png)
 
-# Part 4: Moving Files with `scp`
+# Part 4: Moving Files with scp
 
 A useful command is `scp` which is used to copy a file or multiple files from your computer to a remote one. 
 
