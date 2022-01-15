@@ -69,7 +69,7 @@ You will be asked to enter your password and one entered the file should be copi
 
 # Part 5: Setting an SSH Key
 
-We can use ssh keys to avoid retyping your password every time we connect to the remote ieng6 server. To do this run the command `ssh-keygen` on your (client) computer. Then you will be prompted with the following … 
+We can use ssh keys to avoid retyping your password every time we connect to the remote ieng6 server. To do this run the command `ssh-keygen` on your (client) computer. Then you will be prompted with the following …
 
 - `# on client (your computer)`
 - `$ ssh-keygen`
