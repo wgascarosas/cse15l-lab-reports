@@ -28,7 +28,7 @@ To access the remote ieng6 server you type in the following command
 
 with the `zz` being replaced by your specific account letters.
 
-You will get asked to put in your password and once you do your terminal should look like this… 
+You will get asked to put in your password and once you do your terminal should look like the image below… 
 
 ![image](remotely_connecting.png)
 
