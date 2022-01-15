@@ -52,7 +52,7 @@ When `ls -a` is typed as a command this lists all the files in the directory in 
 
 ![image](commands.png)
 
-# Part 4: Moving Files with scp
+# Part 4: Moving Files with scp
 
 A useful command is `scp` which is used to copy a file or multiple files from your computer to a remote one. 
 
@@ -70,29 +70,6 @@ You will be asked to enter your password and one entered the file should be copi
 # Part 5: Setting an SSH Key
 
 We can use ssh keys to avoid retyping your password every time we connect to the remote ieng6 server. To do this run the command `ssh-keygen` on your (client) computer. Then you will be prompted with the following …
-
-- `# on client (your computer)`
-- `$ ssh-keygen`
-- `Generating public/private rsa key pair.`
-- `Enter file in which to save the key (/Users/user/.ssh/id_rsa): /Users/user/.ssh/id_rsa`
-- `Enter passphrase (empty for no passphrase): `
-- `Enter same passphrase again:` 
-- `Your identification has been saved in /Users/user/.ssh/id_rsa.`
-- `Your public key has been saved in /Users/user/.ssh/id_rsa.pub.`
-- `The key fingerprint is:`
-- `SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 user@User-Mac-mini.local`
-- `The key's randomart image is:`
-- `+---[RSA 3072]----+`
-- `|                 |`
-- `|       . . + .   |`
-- `|      . . B o .  |`
-- `|     . . B * +.. |`
-- `|      o S = *.B. |`
-- `|       = = O.*.*+|`
-- `|        + * *.BE+|`
-- `|           +.+.o |`
-- `|             ..  |`
-- `+----[SHA256]-----+`
 
 ![image](ssh-key.png)
 
