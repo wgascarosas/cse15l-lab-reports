@@ -33,7 +33,8 @@ You will get asked to put in your password and once you do your terminal should 
 ![image](remotely_connecting.png)
 
 Now you are good to go and start commanding!
-(to log out at any time you can press control + D or type in exit)
+
+**to log out at any time you can press control + D or type in exit**
 
 # Part 3: Trying Some Commands
 
@@ -47,7 +48,7 @@ Here is a list of commands to try…
 - `cat`
 - `cp`
 
-When ls -a is typed as a command this lists all the files in the directory in which you are currently in 
+When `ls -a` is typed as a command this lists all the files in the directory in which you are currently in 
 
 ![image](commands.png)
 
@@ -70,28 +71,28 @@ You will be asked to enter your password and one entered the file should be copi
 
 We can use ssh keys to avoid retyping your password every time we connect to the remote ieng6 server. To do this run the command `ssh-keygen` on your (client) computer. Then you will be prompted with the following … 
 
--`# on client (your computer)`
--`$ ssh-keygen`
--`Generating public/private rsa key pair.`
--`Enter file in which to save the key (/Users/user/.ssh/id_rsa): /Users/user/.ssh/id_rsa`
--`Enter passphrase (empty for no passphrase): `
--`Enter same passphrase again:` 
--`Your identification has been saved in /Users/user/.ssh/id_rsa.`
--`Your public key has been saved in /Users/user/.ssh/id_rsa.pub.`
--`The key fingerprint is:`
--`SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 user@User-Mac-mini.local`
--`The key's randomart image is:`
--`+---[RSA 3072]----+`
--`|                 |`
--`|       . . + .   |`
--`|      . . B o .  |`
--`|     . . B * +.. |`
--`|      o S = *.B. |`
--`|       = = O.*.*+|`
--`|        + * *.BE+|`
--`|           +.+.o |`
--`|             ..  |`
--`+----[SHA256]-----+`
+- `# on client (your computer)`
+- `$ ssh-keygen`
+- `Generating public/private rsa key pair.`
+- `Enter file in which to save the key (/Users/user/.ssh/id_rsa): /Users/user/.ssh/id_rsa`
+- `Enter passphrase (empty for no passphrase): `
+- `Enter same passphrase again:` 
+- `Your identification has been saved in /Users/user/.ssh/id_rsa.`
+- `Your public key has been saved in /Users/user/.ssh/id_rsa.pub.`
+- `The key fingerprint is:`
+- `SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 user@User-Mac-mini.local`
+- `The key's randomart image is:`
+- `+---[RSA 3072]----+`
+- `|                 |`
+- `|       . . + .   |`
+- `|      . . B o .  |`
+- `|     . . B * +.. |`
+- `|      o S = *.B. |`
+- `|       = = O.*.*+|`
+- `|        + * *.BE+|`
+- `|           +.+.o |`
+- `|             ..  |`
+- `+----[SHA256]-----+`
 
 ![image](ssh-key.png)
 
@@ -102,6 +103,7 @@ Now log in to your remote ieng6 server account using
 with `zz` replaced by your account specific letters.
 Once logged in run command `mkdir .ssh` then log out.
 Now on your computer terminal run the command
+
 `scp /Users/user/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 (You use your username and the path you saw in the command above)
