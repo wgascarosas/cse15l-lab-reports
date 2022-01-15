@@ -127,7 +127,5 @@ You can also type in multiple commands using a semicolon like the example below‚
 
 `ssh cs15lwi22@ieng6.ucsd.edu "ls -lat; cd ~; pwd; ls‚Äù`
 
-link1: [Lab Report 1](lab-report-1-week-2.md)
-
 link2: [Lab Report 1](https://wgascarosas.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
