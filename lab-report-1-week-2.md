@@ -123,6 +123,3 @@ Notice how we are still in our own terminal and not the remote server’s.
 You can also type in multiple commands using a semicolon like the example below… 
 
 `ssh cs15lwi22@ieng6.ucsd.edu "ls -lat; cd ~; pwd; ls”`
-
-link2: [Lab Report 1](https://wgascarosas.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
-
