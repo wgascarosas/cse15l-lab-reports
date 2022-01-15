@@ -5,7 +5,7 @@
 
 `this is some code..`
 
-*[link](https://twitter.com/?lang=en)*
+*[twitter](https://twitter.com/?lang=en)*
 
 added in visual studio
 
