@@ -42,6 +42,7 @@ Try to run some commands now that you are connected to the remote servers.
 Here is a list of commands to try… 
 
 - `cd`
+- `cd ~`
 - `ls -a`
 - `ls -lat`
 - `pwd`
