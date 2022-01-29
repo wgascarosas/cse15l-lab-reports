@@ -44,6 +44,7 @@ Here is a list of commands to try…
 - `cd`
 - `cd ~`
 - `ls -a`
+- `ls -l`
 - `ls -lat`
 - `pwd`
 - `mkdir`
