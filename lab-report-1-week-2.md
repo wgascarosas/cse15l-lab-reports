@@ -102,3 +102,9 @@ Notice how we are still in our own terminal and not the remote server’s.
 You can also type in multiple commands using a semicolon like the example below… 
 
 `ssh cs15lwi22@ieng6.ucsd.edu "ls -lat; cd ~; pwd; ls”`
+
+We can save multiple keystrokes especially if we want to re run any program. For example this command would run a program when first typed...
+
+`./HelloWorld.java`
+
+typing that involved 15 total keystrokes. Each time we want to re run to program we would have to type in all of it again. We can save keystrokes though by simply using the arrow keys specifically the up arrow key. This will allow for us to cycle through old commands and since the command above was the last command entered we simply press one keystroke to re run the program. This cuts down 15 keystrokes to just one.
