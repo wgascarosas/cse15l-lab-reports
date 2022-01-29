@@ -43,6 +43,7 @@ Here is a list of commands to try…
 
 - `cd`
 - `ls -a`
+- `ls -lat`
 - `pwd`
 - `mkdir`
 - `cat`
