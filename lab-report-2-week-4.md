@@ -37,4 +37,4 @@ For this bug it was more tricky to fix. The bug here is that the program cannot 
 *[Link to test file](https://github.com/wgascarosas/markdown-parse/blob/main/test-file6.md)*
 
 *Analysis of fix:*
-When involving test file 6, we did not get any error, there was simply a printed out statement (`[page.com]`). Here the program thought the image inside the brackets was a link. To fix this we weould need to add if else statement to check if the first character is a "!". If so the image will be skipped over.
+When involving test file 6, we did not get any error, there was simply a printed out statement (`[page.com]`). Here the program thought the image inside the brackets was a link. To fix this we weould need to add if else statement to check if the first character is a "!". If so the image will be skipped over which is what we want.
