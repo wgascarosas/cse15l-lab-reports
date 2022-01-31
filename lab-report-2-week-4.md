@@ -16,7 +16,7 @@ The bug here threw an out of bounds exception. File 3 contains no links at all j
 ## Change 2
 
 *Output to terminal before fix* 
-[image](terminal_c2.png)
+![image](terminal_c2.png)
 
 *Picture of code fix*
 ![image](change_c2.png)
