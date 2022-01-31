@@ -8,7 +8,7 @@
 *Picture of code fix*
 ![image](change_c1.png)
 
-*[Link to test file](https://github.com/wgascarosas/markdown-parse/blob/main/test-file3.md)*
+*[Link to test file 1](https://github.com/wgascarosas/markdown-parse/blob/main/test-file3.md)*
 
 *Analysis of fix:*
 
@@ -22,7 +22,7 @@ The bug here threw an out of bounds exception. File 3 contains no links at all j
 *Picture of code fix*
 ![image](change_c2.png)
 
-*[Link to test file](https://github.com/pz2105/markdown-parse/blob/main/lab2_thirdTestFile.md)*
+*[Link to test file 2](https://github.com/pz2105/markdown-parse/blob/main/lab2_thirdTestFile.md)*
 
 *Analysis of fix:*
 
@@ -36,7 +36,7 @@ For this bug it was more tricky to fix. The bug here is that the program cannot 
 *Picture of code fix*
 ![image](change_c3.png)
 
-*[Link to test file](https://github.com/wgascarosas/markdown-parse/blob/main/test-file6.md)*
+*[Link to test file 3](https://github.com/wgascarosas/markdown-parse/blob/main/test-file6.md)*
 
 *Analysis of fix:*
 
