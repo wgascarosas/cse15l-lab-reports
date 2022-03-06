@@ -59,7 +59,9 @@ I think in order to make the program work for inline code with backticks it woul
 *Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.*
 
 **Answer**: 
+In order to make the program work for we simply need to write some code to take into account the nested parentheses. To do this we would need do some minor changes to how the counter works and is applied to the linke snippets in the program. 
 
 *Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.*
 
 **Answer**: 
+In order to make the code work for this snippet we would need a major code change. I beleive I could add some code to such as if statements to consider if the link has an ending parenthesis at the end in order to print it or not. I could then add or readjust how to get the markdown length to ignore break lines. Another if statement can be added to now check for starting parenthesis. 
