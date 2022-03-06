@@ -40,7 +40,7 @@ Using *[this](https://github.com/wgascarosas/markdown-parse)* cite, Snippet 3 sh
 ![image](snippet3code.png)
 
 ## Testing
-From the code produced above we can see that only one link gets produced. This corresponds to *this title text is really long and takes up more than one line* contaning *https://ucsd-cse15l-wi22.github.io/*. 
+From the code produced above we can see that only one link gets produced. This corresponds to *this title text is really long and takes up more than one line* contaning the site *https://ucsd-cse15l-wi22.github.io/*. 
 Here is the test I implemented...
 ![image](snippet3-test.png)
 
