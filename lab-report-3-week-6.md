@@ -6,9 +6,7 @@ Logging into a remote server with a long username can be very annoying at times.
 ### Step #1: Making and Editing the Config file
 In order to make or edit the Config file we have to access the `~/.ssh/config` directory. If the file does not exist we can create it using `touch`. To edit the file we can use a coding IDE or edit it in vim which I will be doing. Simply stype in `vim config`. To go to insert mode we type in "i" and now we can type or paste the code snippet below. 
 
-`Host ieng6`
-    `HostName ieng6.ucsd.edu`
-    `User cs15lwi22zzz (use your username)`
+![image](lab3-pic0.png)
 
 Here is the code in the Config file...
 ![image](lab3-pic1.png)
