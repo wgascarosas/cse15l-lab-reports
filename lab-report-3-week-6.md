@@ -14,12 +14,14 @@ Here is the code in the Config file...
 To save the file type ":wq" and this saves the Config file.
 
 ### Step #2: Make sure it works
-Now that we configerred the file instead of typing `ssh cs15lwi22zzz@ieng6.ucsd.edu` each time we can simply type `ssh ieng6`.
+Now that we configerred the file instead of typing 
+`ssh cs15lwi22zzz@ieng6.ucsd.edu` 
+each time we can simply type `ssh ieng6`.
 ![image](lab3-pic2.png)
 
 As you can see we successfully logged in to the ieng6 remote server in this more convenient way.
 
-### Step #3: Using `scp`
+### Step #3: Using "scp"
 This new nickname can be used along with the `scp` command not just `ssh`. In order to test it out the command would work the exact same just replacing the long username with ieng6.
 ![image](lab3-pic3.png)
 
