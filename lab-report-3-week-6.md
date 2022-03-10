@@ -4,7 +4,7 @@
 Logging into a remote server with a long username can be very annoying at times. SHH has a unique feature to make this process easier. We can make/edit a Config file to tell SSH what username and password to use when logging into the remote server for this class specifically the ieng6 server. 
 
 ### Step #1: Making and Editing the Config file
-In order to make or edit the Config file we have to access the `~/.ssh/config` directory. If the file does not exist we can create it using `touch`. To edit the file we can use a coding IDE or edit it in vim which I will be doing. Simply stype in `vim config`. To go to insert mode we type in "i" and now we can type or paste the code snippet below. 
+In order to make or edit the Config file we have to access the `~/.ssh/config` directory. If the file does not exist we can create it using `touch`. To edit the file we can use a coding IDE or edit it in vim which I will be doing. Simply stype in `vim config`. To go to insert mode we type in "i" and now we can type or paste the code snippet down below. 
 
 ![image](lab3-pic0.png)
 
