@@ -16,6 +16,7 @@ We did this process in the shared markdownparse as well as in my own markdownpar
 `diff student-mdparse/results.txt markdown-parse/results.txt`
 
 ...replacing student-mdparse with your corresponding markdownparse directory and markdown-parse with the shared markdownparse directory in your computer. This will display the lines where there are differences in each file. Here is a snippet of what it should look like essentially. 
+
 ![image](lab5-pic1.png)
 
 In the pic above for the first difference, "212" refers to the line number where theses differences occurs. In my markdownparse results.txt (student-mdparse/results.txt), the line 92 contained `[]`, while on line 92 of the shared results.txt in the markdownparse directory (markdown-parse/results.txt), the line contained [url]. 
