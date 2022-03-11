@@ -18,10 +18,6 @@ In the pic above for the first difference, "212" refers to the line number where
 
 To figure out exacty which md file is causing the difference we go to either results.txt file (one ways is with with `vim results.txt`) and go to that exact line. The .md file appears ontop of that line. We can then use `cat` to print out the contents of the .md file to see where exactly the problem is. The following are two test files that have differences in how they recognized their contents.
 
-[link](/mylink)
-[foo]: <bar>(baz)
-[foo]
-
 ## Test #1
 ### File 487.md
 Here are the contents of the file "487.md".
@@ -38,3 +34,12 @@ As you can see in my markdownparse the output is `[my/uri]` while the output for
 The correct implementation is the one where no link is found. Here the bug is that my markdownparse recognizes "/my uri" as a link. This is not the case as this would link to a file called my uri in my computer under the path "/Users/user/Documents/GitHub/cse15l-lab-reports/mylink". Since there is no file with that name there there should not be a link produced. In order to fix this issue we would need an if statement to catch any "/" in files and ignore them.
 
 ## Test #2
+### File 32.md
+Here are the contents of the file "32.md".
+![image](lab5-pic5.png)
+
+Here is the expected output according to the [Common Mark](https://spec.commonmark.org/dingus/) website.
+![image](lab5-pic6.png)
+
+Here is the result when `diff` command is run with both result.txt files.
+![image](lab5-pic7.png)
