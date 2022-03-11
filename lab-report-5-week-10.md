@@ -5,7 +5,11 @@
 - *[shared markdownparse](https://github.com/ucsd-cse15l-w22/markdown-parse)*
 
 ## Finding Tests with different Results
-In order to find the list of files with different results we will take advantage of the `diff` command in SSH. We first needed to copy all the contents of test-files into a results.txt file to make it easier to work with. In order to do this we compile the program then run `bash script.sh > results.txt`. This creates a text file named "results.txt" and copies to output of `bash script.txt` to it. The output is all the file names and their corresponding outputted link.
+In order to find the list of files with different results we will take advantage of the `diff` command in SSH. We first needed to copy all the contents of test-files into a results.txt file to make it easier to work with. In order to do this we compile the program then run ... 
+
+`bash script.sh > results.txt`. 
+
+This creates a text file named "results.txt" and copies to output of `bash script.txt` to it. The output is all the file names and their corresponding outputted link.
 
 We did this process in the shared markdownparse as well as in my own markdownparse. Now with both txt files created we can compare the two with the `diff` command. We can run the following... 
 
