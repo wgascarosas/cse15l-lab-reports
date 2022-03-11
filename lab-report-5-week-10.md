@@ -51,6 +51,8 @@ Here is the result when `diff` command is run with both result.txt files.
 
 As you can see in my markdownparse the output is `[/f&ouml;&ouml; "f&ouml;&ouml;"]` while the output for the class shared markdownparse does not recognize the file as a valid link thus having no output (`[]`). 
 
-The correct implementation is the one where no link is found. Here the bug is that my markdownparse recognizes "/f&ouml;&ouml; "f&ouml;&ouml;"" as a link. This is not the case as this would link to a file called my uri in my computer under the path "/Users/user/Documents/GitHub/cse15l-lab-reports/mylink". Since there is no file with that name there there should not be a link produced. In order to fix this issue we would need an if statement to catch any "/" in files and ignore them.
+The correct implementation is the one where no link is found. Here the bug is that my markdownparse recognizes "/f&ouml;&ouml; "f&ouml;&ouml;"" as a link. This is not the case as the part following the "/" would have the same issue as the bug above where it would be recognized as a file link under the path in my computer "/Users/user/Documents/GitHub/cse15l-lab-reports/f&ouml;&ouml;". Another bug specific to this test is how the link does not recognize &ouml; as the actual letter and keeps it as is.
+
+This is not the case as this would link to a file called my uri in my computer under the path "/Users/user/Documents/GitHub/cse15l-lab-reports/mylink". Since there is no file with that name there there should not be a link produced. In order to fix this issue we would need an if statement to catch any "/" in files and ignore them.
 
 [foo](/f&ouml;&ouml; "f&ouml;&ouml;")
